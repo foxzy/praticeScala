@@ -1,0 +1,55 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala, /home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala, /home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala, /home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala, /home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/parunya/IdeaProjects/SBTExampleProject/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4ba2aaf5, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/parunya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/parunya/IdeaProjects/SBTExampleProject/target/scala-2.12/classes:/home/parunya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala:36: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : DrawShape.this.Color[0m
+[0m[[31merror[0m] [0m required: DrawShape.this.Shape[0m
+[0m[[31merror[0m] [0m        s"A ${Draw(color)} rectangle of width ${width}cm and height ${height}cm"[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala:38: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : DrawShape.this.Color[0m
+[0m[[31merror[0m] [0m required: DrawShape.this.Shape[0m
+[0m[[31merror[0m] [0m        s"A ${Draw(color)} square of size ${size}cm"[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Draw.scala:40: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : DrawShape.this.Color[0m
+[0m[[31merror[0m] [0m required: DrawShape.this.Shape[0m
+[0m[[31merror[0m] [0m        s"A ${Draw(color)} circle of radius ${radius}cm"[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala:48: not enough arguments for method apply: (radius: Double, color: example.Main._draw.Color)example.Main._draw.Circle in object Circle.[0m
+[0m[[31merror[0m] [0mUnspecified value parameter color.[0m
+[0m[[31merror[0m] [0m  println("CIRCLE :" + _draw.Draw.apply(Main._draw.Circle(10)))[0m
+[0m[[31merror[0m] [0m                                                         ^[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala:49: not enough arguments for method apply: (width: Double, height: Double, color: example.Main._draw.Color)example.Main._draw.Rectangle in object Rectangle.[0m
+[0m[[31merror[0m] [0mUnspecified value parameter color.[0m
+[0m[[31merror[0m] [0m  println("RECTANGLE :" + _draw.Draw.apply(Main._draw.Rectangle(3,4)))[0m
+[0m[[31merror[0m] [0m                                                               ^[0m
+[0m[[31merror[0m] [0m/home/parunya/IdeaProjects/SBTExampleProject/src/main/scala/example/Main.scala:50: not enough arguments for method apply: (radius: Double, color: example.Main._draw.Color)example.Main._draw.Circle in object Circle.[0m
+[0m[[31merror[0m] [0mUnspecified value parameter color.[0m
+[0m[[31merror[0m] [0m  println(_draw.Draw.apply(Main._draw.Circle(10)))[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m6 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
