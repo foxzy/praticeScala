@@ -49,7 +49,7 @@ object Main extends App {
   println("RECTANGLE :" + _draw.Draw.apply(Main._draw.Rectangle(3,4)))
   println(_draw.Draw.apply(Main._draw.Circle(10)))
 
-
+  val _draw1 = new DrawShape()
 
 }
 
